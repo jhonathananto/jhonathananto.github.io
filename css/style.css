@@ -67,9 +67,8 @@ li {
 .about,
 .services,
 .plans,
-.work,
-.contact {
-	height: 110vh;
+.work {
+	height:110vh;
 	position: relative;
 }
 
@@ -151,7 +150,7 @@ li {
 	color: #fff; 
 	font-weight: 600;
 	line-height: 1rem;
-	font-size: 2rem;
+	font-size: 1.2rem;
 	text-decoration: none;
 }
 
@@ -386,7 +385,7 @@ li {
 /*     Testimonials     */
 /************************/
 .slider-1 {
-	padding-top: 8.25rem;
+	padding-top: 0.25rem;
 	padding-bottom: 8.5rem;
 }
 
