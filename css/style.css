@@ -23,9 +23,9 @@ Table Of Contents:
 :root {
 	--primary: #1c262f;
 	--primary-light: #212d37;
-	--secondary: #4fc3f7;
-	--tertiary: #00dabf;
-	--gradient: linear-gradient(to right, #4fc3f7, #00dabf);
+	--secondary: #084764;
+	--tertiary: #06628d;
+	--gradient: linear-gradient(to right, #06628d, #084764);
 }
 
 h1,
@@ -54,7 +54,7 @@ h4 {
 }
 
 a {
-	color: white;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 
@@ -107,8 +107,8 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#4fc3f7),
-		to(#00dabf)
+		from(#05628d),
+		to(#06628d)
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -131,7 +131,7 @@ li {
 /**********************/
 .navbar {
 	font-weight: 500;
-	font-size: 0.875rem;
+	font-size: 1.2rem;
 	line-height: 0.875rem;
 	background-color: var(--primary);
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
@@ -148,10 +148,10 @@ li {
 }
 
 .navbar .logo-text {
-	color: #fff;
-	font-weight: 500;
+	color: #fff; 
+	font-weight: 600;
 	line-height: 1rem;
-	font-size: 1.575rem;
+	font-size: 2rem;
 	text-decoration: none;
 }
 
@@ -187,7 +187,7 @@ li {
 }
 
 .navbar .dropdown-item {
-	color: #eee;
+	color: rgb(120, 11, 153); 
 	font-weight: 500;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -209,7 +209,7 @@ li {
 }
 
 .navbar .nav-item .nav-link {
-	color: #eee;
+	color: rgb(238, 238, 238); 
 	text-decoration: none;
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
@@ -218,7 +218,7 @@ li {
 
 .navbar .fa-stack {
 	width: 2em;
-	font-size: 0.75rem;
+	font-size: 1rem;
 	margin-right: 0.25rem;
 }
 
@@ -227,8 +227,8 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#4fc3f7),
-		to(#00dabf)
+		from(#05628d),
+		to(#06628d)
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -237,7 +237,7 @@ li {
 }
 
 .navbar .fa-stack-1x {
-	color: #ffffff;
+	color: #ffffff; 
 	transition: all 0.2s ease;
 }
 
@@ -284,7 +284,7 @@ li {
 }
 
 .information .container-fluid .row div:last-child {
-  	background-color: white;
+  	background-color: var(--primary);
 }
 
 .information .container-fluid .row div:nth-child(2) {
@@ -297,22 +297,22 @@ li {
 /******************/
 .btn {
 	color: white;
-	border-radius: 0;
-	border-width: 2px;
-	padding: 10px 30px;
-	border-image-slice: 1;
+	border-radius: 3px;
+	border-width: 5px;
+	padding: 10px 50px;
+	--border-image-slice: 1;
 	background-image: none;
-	background: transparent;
-	border-image-source: var(--gradient);
-	box-shadow: 5px 5px 0px 0px var(--secondary);
+	background:#06628d;
+	--border-image-source: var(--gradient);
+	box-shadow: 2px 2px 0px 0px var(--secondary);
 }
 
 .btn:hover {
 	color: white;
-	box-shadow: none;
+	box-shadow:#1c262f;
 	border-radius: 0;
-	padding: 10px 30px;
-	transform: translate(5px, 5px);
+	padding: 10px 50px;
+	transform: translate(3px, 3px);
 }
 
 /* Email - Newsletter Button */
@@ -369,7 +369,7 @@ li {
 	border-image-slice: 1;
 	border-width: 2px;
 	border-image-source: var(--gradient);
-	box-shadow: 5px 5px 0px 0px #4fc3f7;
+	box-shadow: 5px 5px 0px 0px #05628d;
 }
 
 
